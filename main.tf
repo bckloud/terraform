@@ -8,8 +8,8 @@
 #
 resource "azurerm_resource_group" "ex44" {
   #for_each = toset(["eastus","australiaeast"])
-  name     = "${var.rgname}-data"
-  location = var.location
+  name     = "newrg"
+  location = "eastus"
 }
 #
 #resource "azurerm_virtual_network" "main" {
